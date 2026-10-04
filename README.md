@@ -79,17 +79,19 @@ Optimal K             Best Hyperparameters
                 ▼
    Comparative Classification Analysis
 
-Data Preprocessing
+## Data Preprocessing
 The preprocessing pipeline includes:
-Missing-Value Handling
+1. Missing-Value Handling
 Missing observations are identified and replaced using mean-value imputation to
 produce a complete feature matrix for downstream modelling.
-Feature Standardization
+
+2. Feature Standardization
 Numerical features are standardized using StandardScaler so that variables with
 different numerical ranges contribute comparably during model training.
 This is particularly important for KNN because its prediction mechanism depends on
 distance between observations.
-Train-Test Separation
+
+3. Train-Test Separation
 The dataset is separated into training and testing subsets before model evaluation,
 providing an independent hold-out set for assessing predictive performance.
 ---
