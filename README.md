@@ -34,7 +34,7 @@ The project aims to:
 ---
 
 ## Machine Learning Workflow
-
+```text
 Raw Dataset
      │
      ▼
@@ -71,7 +71,7 @@ Optimal K             Best Hyperparameters
                 │
                 ▼
    Comparative Classification Analysis
-
+```
 
 ---
 
