@@ -1,4 +1,3 @@
-```markdown
 # Breast Cancer Prediction using Machine Learning
 
 A machine-learning classification workflow for predicting breast cancer diagnosis from clinical diagnostic features. The project focuses on systematic data preprocessing, feature standardization, model selection, cross-validation, hyperparameter optimization, and comparative evaluation of supervised learning algorithms.
@@ -73,7 +72,6 @@ Optimal K             Best Hyperparameters
                 │
                 ▼
    Comparative Classification Analysis
-```
 
 ---
 
