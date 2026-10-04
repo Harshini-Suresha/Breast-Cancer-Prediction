@@ -92,8 +92,7 @@ This is particularly important for KNN because its prediction mechanism depends 
 ### 3. Train-Test Separation
 
 The dataset is separated into training and testing subsets before model evaluation, providing an independent hold-out set for assessing predictive performance.
-
---
+---
 
 # Models
 
