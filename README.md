@@ -73,9 +73,9 @@ Optimal K             Best Hyperparameters
                 ▼
    Comparative Classification Analysis
 
----
+--
 
-## Data Preprocessing
+# Data Preprocessing
 
 The preprocessing pipeline includes:
 
@@ -93,17 +93,17 @@ This is particularly important for KNN because its prediction mechanism depends 
 
 The dataset is separated into training and testing subsets before model evaluation, providing an independent hold-out set for assessing predictive performance.
 
----
+--
 
-## Models
+# Models
 
-### 1. K-Nearest Neighbors
+# 1. K-Nearest Neighbors
 
 KNN is implemented as a distance-based classification algorithm.
 
 The workflow evaluates different values of `K` using cross-validation to determine an appropriate neighbourhood size rather than selecting the parameter arbitrarily.
 
-#### Key Concepts Explored
+## Key Concepts Explored
 
 - Euclidean-distance-based neighbour selection
 - Neighbourhood size (`K`)
@@ -112,7 +112,7 @@ The workflow evaluates different values of `K` using cross-validation to determi
 - Bias-variance trade-off
 - Classification accuracy
 
-### 2. Logistic Regression
+## 2. Logistic Regression
 
 Logistic Regression is implemented as a linear probabilistic classification model for binary breast-cancer prediction.
 
