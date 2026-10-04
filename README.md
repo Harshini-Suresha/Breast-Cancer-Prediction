@@ -1,5 +1,3 @@
-Yes — **copy everything inside this single code block directly into your `README.md` file**:
-
 ```markdown
 # Breast Cancer Prediction using Machine Learning
 
